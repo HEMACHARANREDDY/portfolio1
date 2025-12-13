@@ -31,6 +31,8 @@ This repository contains my personal portfolio website, built to showcase my ski
   - AWS Cloud Practitioner, MongoDB Certified Developer, Certified Advanced Automation Professional
   - Ongoing learning in GenAI/ML/Data Science and regular DSA practice
 - Contact section with email, phone, GitHub, and LinkedIn links
+
+## 📂 Project Structure
 portfolio1/
 ├── index.html # Main portfolio page
 ├── profile.jpg # Profile image used in hero section
@@ -67,5 +69,5 @@ After deployment, update the **Live Links** section above with your production U
 - **GitHub:** [HEMACHARANREDDY](https://github.com/HEMACHARANREDDY)  
 - **LinkedIn:** [hema-charan-reddy](https://linkedin.com/in/hema-charan-reddy)
 
-## 📂 Project Structure
+
 
