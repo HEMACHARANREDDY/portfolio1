@@ -4,7 +4,7 @@ This repository contains my personal portfolio website, built to showcase my ski
 
 ## 🔗 Live Links
 
-- **Portfolio:** (add Netlify/Vercel link here)
+- **Portfolio:** https://hemacharanreddy.github.io/portfolio1/
 - **GitHub Profile:** [HEMACHARANREDDY](https://github.com/HEMACHARANREDDY)
 - **LinkedIn:** [hema-charan-reddy](https://linkedin.com/in/hema-charan-reddy)
 
@@ -68,6 +68,7 @@ After deployment, update the **Live Links** section above with your production U
 - **Email:** `hemacharan499@gmail.com`  
 - **GitHub:** [HEMACHARANREDDY](https://github.com/HEMACHARANREDDY)  
 - **LinkedIn:** [hema-charan-reddy](https://linkedin.com/in/hema-charan-reddy)
+
 
 
 
