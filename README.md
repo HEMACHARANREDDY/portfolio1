@@ -1,16 +1,64 @@
-# React + Vite
+# 🎬 Netflix-Themed Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A highly immersive, cinematic developer portfolio built for **K Hema Charan Reddy**. This project mimics the iconic Netflix user interface and user experience to showcase technical expertise, projects, and skills in a unique, visually striking way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Cinematic Hero Section**: Immersive full-screen hero with custom GSAP scroll-triggered animations and 3D tilt effects.
+- **Dynamic Content**: Netflix-style content sliders featuring Projects, Expertise, and Skills.
+- **Custom Cursor Suite**: Ultra-smooth, precision red dot custom cursor with a trailing ring.
+- **Web3Forms Integration**: Fully functional contact form that sends messages directly to email without requiring a backend server.
+- **Responsive Design**: Carefully crafted to look perfect on 4K displays, laptops, tablets, and mobile devices.
+- **Performance Optimized**: Built with Vite and React for lightning-fast hot module replacement and optimized production builds.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework**: [React 18](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [GSAP](https://gsap.com/) (GreenSock Animation Platform) + [Framer Motion](https://www.framer.com/motion/)
+- **Forms**: [Web3Forms API](https://web3forms.com/)
+- **Deployment**: Ready for Vercel, Netlify, or GitHub Pages.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+To run this project locally on your machine:
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/HEMACHARANREDDY/portfolio1.git
+   ```
+
+2. **Navigate to the directory:**
+   ```bash
+   cd portfolio1
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and visit `http://localhost:5173/` to view the portfolio!
+
+## 📬 Contact Setup
+
+The contact form uses **Web3Forms** to send emails. To link it to your own email:
+1. Go to [Web3Forms](https://web3forms.com/) and get your free access key.
+2. Open `src/components/Contact.jsx`.
+3. Locate the `handleSubmit` function and paste your access key.
+
+---
+
+> Engineered for Scalability &bull; Built with React & GSAP
