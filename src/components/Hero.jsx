@@ -87,8 +87,8 @@ const Hero = () => {
       const cardCenterX = cardRect.left + cardRect.width / 2 - rect.left;
       const cardCenterY = cardRect.top + cardRect.height / 2 - rect.top;
 
-      const rotateX = -((y - cardCenterY) / (cardRect.height / 2)) * 16;
-      const rotateY = ((x - cardCenterX) / (cardRect.width / 2)) * 16;
+      const rotateX = -((y - cardCenterY) / (cardRect.height / 2)) * 4;
+      const rotateY = ((x - cardCenterX) / (cardRect.width / 2)) * 4;
 
       xTilt(rotateY);
       yTilt(rotateX);
@@ -181,7 +181,7 @@ const Hero = () => {
           <div className="lg:col-span-5 flex flex-col items-start space-y-5 text-left">
             
             <div className="hero-anim-item flex items-center gap-3">
-              <span className="px-2.5 py-0.5 bg-red-600 text-white font-black text-xs rounded tracking-widest shadow-[0_0_20px_rgba(229,9,20,0.8)] animate-pulse">TOP 1%</span>
+              <span className="px-2.5 py-0.5 bg-red-600 text-white font-black text-xs rounded tracking-widest shadow-[0_0_20px_rgba(229,9,20,0.8)] animate-pulse">AVAILABLE</span>
               <span className="text-white/80 text-xs font-mono tracking-widest uppercase">Software Engineer & Problem Solver</span>
             </div>
 
@@ -193,7 +193,7 @@ const Hero = () => {
             </h1>
 
             <div className="hero-anim-item flex items-center gap-3 text-xs font-mono text-red-400 font-bold">
-              <span className="px-2 py-0.5 bg-red-500/10 border border-red-500/30 rounded text-red-500">99.9% Uptime</span>
+              <span className="px-2 py-0.5 bg-red-500/10 border border-red-500/30 rounded text-red-500">Problem Solver</span>
               <span className="text-white/40">•</span>
               <span>React • Node.js • MongoDB</span>
               <span className="text-white/40">•</span>

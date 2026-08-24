@@ -11,9 +11,7 @@ const Footer = () => {
             <div className="text-2xl font-black text-red-600 tracking-tighter flex items-center gap-2 drop-shadow-[0_2px_15px_rgba(220,38,38,0.9)]">
               CHARAN<span className="w-1.5 h-1.5 rounded-full bg-white inline-block"></span>
             </div>
-            <p className="text-xs font-mono text-white/50 tracking-widest uppercase">
-              // NETFLIX DEVELOPER SERIES &bull; SEASON 2026
-            </p>
+
           </div>
 
           {/* Quick Navigation Links */}
@@ -66,7 +64,7 @@ const Footer = () => {
         {/* Bottom Copyright & Cinematic Tagline */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-6 border-t border-white/5 text-[11px] font-mono text-white/40 uppercase tracking-widest">
           <p>&copy; {new Date().getFullYear()} K Hema Charan Reddy. All Rights Reserved.</p>
-          <p className="text-red-500/80">STREAMING WORLDWIDE &bull; BUILT WITH REACT & GSAP</p>
+          <p className="text-red-500/80">AVAILABLE WORLDWIDE &bull; BUILT WITH REACT & GSAP</p>
         </div>
 
       </div>

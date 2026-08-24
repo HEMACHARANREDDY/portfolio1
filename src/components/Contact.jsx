@@ -101,11 +101,9 @@ const Contact = () => {
           <div className="flex items-center justify-between mb-12 md:mb-16">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded bg-red-600/10 border border-red-600/30 text-xs font-mono uppercase tracking-widest text-red-500">
               <span className="w-1.5 h-1.5 rounded-full bg-red-600 animate-ping"></span>
-              <span>EPISODE 04 // GET IN TOUCH</span>
+              <span>CONTACT // GET IN TOUCH</span>
             </div>
-            <span className="text-xs font-mono text-white/40 tracking-wider hidden md:block">
-              // LET'S BUILD SOMETHING CINEMATIC
-            </span>
+
           </div>
 
           <form onSubmit={handleSubmit} className="flex flex-col gap-12 md:gap-16 w-full">
